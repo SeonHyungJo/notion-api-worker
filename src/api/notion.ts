@@ -16,7 +16,7 @@ interface INotionParams {
 }
 
 const loadPageChunkBody = {
-  limit: 999,
+  limit: 100,
   cursor: { stack: [] },
   chunkNumber: 0,
   verticalColumns: false,
